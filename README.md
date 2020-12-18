@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d43feb4-33ce-4d3d-bc9d-74aad4696223/deploy-status)](https://app.netlify.com/sites/aroux-portfolio-v2/deploys)
+
 # portfolio-v2
 
 ## Build Setup
