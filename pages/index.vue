@@ -2,7 +2,7 @@
   <div>
     <Title />
     <Jobs />
-    <Projects />
+    <Projects :projects="projects" />
     <Contact />
   </div>
 </template>
@@ -20,6 +20,11 @@ export default {
     Jobs,
     Projects,
     Contact,
+  },
+  async asyncData({ $content }) {
+    const { projects } = await $content('projects').fetch()
+
+    return { projects }
   },
 }
 </script>

@@ -1,0 +1,21 @@
+{
+  "title": "mes projets",
+  "description": "Bienvenue!",
+  "projects": [
+    {
+      "title": 1,
+      "techs": ["node", "vue"],
+      "description": "this is the desc"
+    },
+    {
+      "title": 2,
+      "techs": ["node", "vue"],
+      "description": "this is the desc"
+    },
+    {
+      "title": 3,
+      "techs": ["node", "vue"],
+      "description": "this is the desc"
+    }
+  ]
+}
