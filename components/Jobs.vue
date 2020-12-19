@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="jobs">
     <h2>jobs</h2>
     <ul>
       <div v-for="(job, index) in jobs" :key="index">
@@ -24,4 +24,13 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.jobs {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 8rem;
+  min-height: 100vh;
+}
+</style>

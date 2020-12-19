@@ -1,7 +1,7 @@
 <template>
   <div>
     <Title />
-    <Jobs :jobs="jobs" />
+    <!-- <Jobs :jobs="jobs" /> -->
     <Projects :projects="projects" />
     <Contact />
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import Title from '@/components/Title'
-import Jobs from '@/components/Jobs'
+// import Jobs from '@/components/Jobs'
 import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 
@@ -17,7 +17,7 @@ export default {
   name: 'IndexPage',
   components: {
     Title,
-    Jobs,
+    // Jobs,
     Projects,
     Contact,
   },

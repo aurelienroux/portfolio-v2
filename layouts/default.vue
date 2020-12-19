@@ -27,7 +27,12 @@ html {
 .container {
   border: 1px solid;
   margin: 0 auto;
-  max-width: 100rem;
-  padding: 2rem;
+  max-width: 110rem;
+  padding: 0 5rem;
+}
+
+a {
+  color: $color-orange;
+  text-decoration: none;
 }
 </style>
