@@ -1,7 +1,7 @@
 <template>
   <div>
     <Title />
-    <Jobs />
+    <Jobs :jobs="jobs" />
     <Projects :projects="projects" />
     <Contact />
   </div>
@@ -23,8 +23,9 @@ export default {
   },
   async asyncData({ $content }) {
     const { projects } = await $content('projects').fetch()
+    const { jobs } = await $content('jobs').fetch()
 
-    return { projects }
+    return { projects, jobs }
   },
 }
 </script>

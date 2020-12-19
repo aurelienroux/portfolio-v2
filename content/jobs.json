@@ -1,0 +1,28 @@
+{
+  "jobs": [
+    {
+      "companyName": "Aerial Technologies",
+      "dateBegin": "november 2019",
+      "dateEnd": "now",
+      "location": "Montreal, QC"
+    },
+    {
+      "companyName": "Clever Age North America",
+      "dateBegin": "november 2019",
+      "dateEnd": "juin 2018",
+      "location": "Montreal, QC"
+    },
+    {
+      "companyName": "Adfab",
+      "dateBegin": "juin 2018",
+      "dateEnd": "mars 2017",
+      "location": "Montreal, QC"
+    },
+    {
+      "companyName": "Freelance",
+      "dateBegin": "2017",
+      "dateEnd": "2015",
+      "location": "Montreal, QC"
+    }
+  ]
+}

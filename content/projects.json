@@ -1,21 +1,18 @@
 {
-  "title": "mes projets",
-  "description": "Bienvenue!",
   "projects": [
     {
-      "title": 1,
-      "techs": ["node", "vue"],
-      "description": "this is the desc"
+      "title": "Personal portfolio v2",
+      "description": "Second iteration of my personal website.",
+      "techs": ["Nuxt", "Nuxt $content API", "Netlify"],
+      "github": "gh",
+      "liveDemo": "ld"
     },
     {
-      "title": 2,
+      "title": "Color Palette",
+      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
       "techs": ["node", "vue"],
-      "description": "this is the desc"
-    },
-    {
-      "title": 3,
-      "techs": ["node", "vue"],
-      "description": "this is the desc"
+      "github": "",
+      "liveDemo": ""
     }
   ]
 }
