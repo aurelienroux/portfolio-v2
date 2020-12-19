@@ -1,20 +1,20 @@
 <template>
-  <div>
+  <div class="container">
     <Nuxt />
   </div>
 </template>
 
-<style>
+<style lang="scss">
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  background: $color-bg;
   box-sizing: border-box;
+  color: $color-text;
+  font-family: $font-lato;
+  font-size: 10px;
 }
 
 *,
@@ -22,5 +22,12 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.container {
+  border: 1px solid;
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: 2rem;
 }
 </style>
