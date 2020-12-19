@@ -46,4 +46,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  // Loading bar on page change (https://nuxtjs.org/docs/2.x/features/loading)
+  loading: false,
 }
