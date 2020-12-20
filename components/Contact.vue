@@ -35,6 +35,7 @@
   min-height: 100vh;
 
   &__title {
+    color: $color-orange;
     font-family: $font-montserrat;
     font-size: 4rem;
     margin: 0 0 14rem 0;
@@ -48,6 +49,13 @@
 
   &__link {
     padding: 2rem;
+    color: $color-text;
+    transition: 0.3s;
+
+    &:hover {
+      color: $color-orange;
+      transition: 0.3s;
+    }
   }
 }
 </style>

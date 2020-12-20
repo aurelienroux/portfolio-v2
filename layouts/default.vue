@@ -33,5 +33,9 @@ html {
 a {
   color: $color-orange;
   text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 </style>

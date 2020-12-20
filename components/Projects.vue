@@ -63,6 +63,7 @@ export default {
   min-height: 100vh;
 
   &__title {
+    color: $color-orange;
     font-family: $font-montserrat;
     font-size: 4rem;
     margin: 0 0 4rem 0;
