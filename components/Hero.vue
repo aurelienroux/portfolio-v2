@@ -1,8 +1,8 @@
 <template>
-  <div class="title">
+  <div class="hero">
     <p>Hello, I'm</p>
-    <h1>Aurelien Roux</h1>
-    <h2>Front end & aspiring fullstack developer</h2>
+    <h1 class="hero__title">Aurelien Roux</h1>
+    <h2 class="hero__subtitle">Front end & aspiring fullstack developer</h2>
     <p>
       I specialize in Vue, Nuxt and am currently learning Node & Express. I
       believe in clean code,
@@ -34,23 +34,23 @@
 <script></script>
 
 <style lang="scss" scoped>
-.title {
+.hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
 
-  h1,
-  h2 {
+  &__title,
+  &__subtitle {
     font-family: $font-montserrat;
   }
 
-  h1 {
+  &__title {
     font-size: 8rem;
     margin: 0 0 2rem 0;
   }
 
-  h2 {
+  &__subtitle {
     font-size: 4rem;
     margin: 0 0 4rem 0;
   }
