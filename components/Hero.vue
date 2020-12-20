@@ -39,6 +39,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
+  padding-top: 2rem;
 
   &__title,
   &__subtitle {
