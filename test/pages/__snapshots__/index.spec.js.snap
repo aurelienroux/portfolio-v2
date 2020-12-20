@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Name of the group renders correctly 1`] = `
+"<div>
+  <hero-stub></hero-stub>
+  <projects-stub projects=\\"\\"></projects-stub>
+  <contact-stub></contact-stub>
+</div>"
+`;
