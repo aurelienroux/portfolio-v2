@@ -21,13 +21,10 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    'normalize.css/normalize.css',
-    '@fortawesome/fontawesome-svg-core/styles.css',
-  ],
+  css: ['normalize.css/normalize.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['~/plugins/fontawesome.js'],
+  plugins: [],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -36,7 +33,15 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/fontawesome',
   ],
+
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
