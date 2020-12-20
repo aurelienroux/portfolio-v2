@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects renders correctly 1`] = `
+"<div class=\\"projects\\">
+  <h2 class=\\"projects__title\\">What I have built</h2>
+  <div class=\\"display\\">
+    <div class=\\"project\\">
+      <h3 class=\\"project__title\\">
+        Personal portfolio v2
+      </h3>
+      <div class=\\"project__links\\"><a href=\\"https://github.com/aurelienroux/portfolio-v2\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" class=\\"project__link\\">
+          <font-awesome-icon-stub icon=\\"fab,github\\"></font-awesome-icon-stub>
+        </a>
+        <!---->
+      </div>
+      <p class=\\"project__desc\\">
+        Second iteration of my personal website. Generated server-side as a static site and deployed on Netlify.
+      </p>
+      <div class=\\"project__techs\\">
+        <div class=\\"project__tech\\">
+          Nuxt
+        </div>
+        <div class=\\"project__tech\\">
+          Nuxt Content API
+        </div>
+        <div class=\\"project__tech\\">
+          Sass
+        </div>
+        <div class=\\"project__tech\\">
+          Unit testing
+        </div>
+        <div class=\\"project__tech\\">
+          Netlify
+        </div>
+      </div>
+    </div>
+    <div class=\\"project\\">
+      <h3 class=\\"project__title\\">
+        Color Palette
+      </h3>
+      <div class=\\"project__links\\"><a href=\\"https://github.com/aurelienroux/color-palette\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" class=\\"project__link\\">
+          <font-awesome-icon-stub icon=\\"fab,github\\"></font-awesome-icon-stub>
+        </a> <a href=\\"https://aroux-colors-palette.netlify.app/\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" class=\\"project__link\\">
+          <font-awesome-icon-stub icon=\\"fas,external-link-alt\\"></font-awesome-icon-stub>
+        </a></div>
+      <p class=\\"project__desc\\">
+        Inspired by the website Coloors.co, the web app generates a random color palette, by fetching data from TheColorApi.
+      </p>
+      <div class=\\"project__techs\\">
+        <div class=\\"project__tech\\">
+          Vue
+        </div>
+        <div class=\\"project__tech\\">
+          Vuex
+        </div>
+        <div class=\\"project__tech\\">
+          Sass
+        </div>
+        <div class=\\"project__tech\\">
+          Netlify
+        </div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;
