@@ -12,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Aurelien Roux is a front-end developer specializing in building exceptional websites and application with Vue and Nuxt',
+          'Aurelien Roux is a front-end developer specializing in building exceptional websites and applications with Vue and Nuxt',
       },
     ],
     link: [
