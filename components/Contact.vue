@@ -19,7 +19,7 @@
         rel="noopener noreferrer"
         class="contact__link"
       >
-        <font-awesome-icon :icon="['fab', 'github']" size="6x" />
+        <font-awesome-icon :icon="['fab', 'github-alt']" size="6x" />
       </a>
     </div>
   </div>

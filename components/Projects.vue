@@ -16,7 +16,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font-awesome-icon icon="code" fixed-width />
+            <font-awesome-icon :icon="['fab', 'github']" size="2x" />
           </a>
           <a
             v-if="project.liveDemo"
@@ -25,7 +25,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font-awesome-icon icon="link" fixed-width />
+            <font-awesome-icon :icon="['fas', 'external-link-alt']" size="2x" />
           </a>
         </div>
 
@@ -94,17 +94,15 @@ export default {
     &__title {
       font-family: $font-montserrat;
       font-size: 2rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     &__links {
       display: flex;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
     &__link {
-      border-radius: 100%;
-      border: 0.1rem solid;
       color: $color-text;
       margin-right: 2.5rem;
       padding: 1.5rem;
