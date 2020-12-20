@@ -65,14 +65,22 @@ export default {
   &__title {
     color: $color-orange;
     font-family: $font-montserrat;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0 0 4rem 0;
+
+    @include for-tablet-portrait-up {
+      font-size: 4rem;
+    }
   }
 
   .display {
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+
+    @include for-tablet-portrait-up {
+      grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    }
   }
 
   .project {
@@ -91,15 +99,15 @@ export default {
 
     &__links {
       display: flex;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
 
     &__link {
       border-radius: 100%;
       border: 0.1rem solid;
       color: $color-text;
-      margin-right: 2rem;
-      padding: 1rem;
+      margin-right: 2.5rem;
+      padding: 1.5rem;
       transition: 0.3s;
 
       &:hover {

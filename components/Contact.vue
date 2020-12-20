@@ -37,17 +37,29 @@
   &__title {
     color: $color-orange;
     font-family: $font-montserrat;
-    font-size: 4rem;
-    margin: 0 0 14rem 0;
+    font-size: 3rem;
+    margin: 0 0 6rem 0;
     text-align: center;
+
+    @include for-tablet-portrait-up {
+      margin: 0 0 14rem 0;
+      font-size: 4rem;
+    }
   }
 
   &__links {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    @include for-tablet-portrait-up {
+      font-size: 4rem;
+    }
   }
 
   &__link {
+    margin: 2rem;
     padding: 2rem;
     color: $color-text;
     transition: 0.3s;

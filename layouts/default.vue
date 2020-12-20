@@ -27,7 +27,11 @@ html {
 .container {
   margin: 0 auto;
   max-width: 110rem;
-  padding: 0 5rem;
+  padding: 0 2rem;
+
+  @include for-tablet-portrait-up {
+    padding: 0 5rem;
+  }
 }
 
 a {

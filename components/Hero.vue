@@ -46,13 +46,22 @@
   }
 
   &__title {
-    font-size: 8rem;
+    color: $color-orange;
+    font-size: 6rem;
     margin: 0 0 2rem 0;
+
+    @include for-tablet-portrait-up {
+      font-size: 8rem;
+    }
   }
 
   &__subtitle {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0 0 4rem 0;
+
+    @include for-tablet-portrait-up {
+      font-size: 4rem;
+    }
   }
 
   p {
