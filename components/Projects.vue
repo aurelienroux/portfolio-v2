@@ -16,7 +16,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font-awesome-icon :icon="['fab', 'github']" size="2x" />
+            <font-awesome-icon :icon="['fab', 'github']" />
           </a>
           <a
             v-if="project.liveDemo"
@@ -25,7 +25,7 @@
             target="_blank"
             rel="noopener noreferrer"
           >
-            <font-awesome-icon :icon="['fas', 'external-link-alt']" size="2x" />
+            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
           </a>
         </div>
 
@@ -105,13 +105,21 @@ export default {
 
     &__link {
       color: $color-text;
-      margin-right: 2.5rem;
+      font-size: 2.2rem;
+      left: -1.5rem;
+      margin-right: 1rem;
       padding: 1.5rem;
+      position: relative;
       transition: 0.3s;
 
       &:hover {
         color: $color-orange;
         transition: 0.3s;
+      }
+
+      &:first-of-type {
+        font-size: 2.5rem;
+        top: -0.2rem;
       }
     }
 

@@ -26,7 +26,6 @@
       >
         convention over configuration
       </a>
-      principles
     </p>
   </div>
 </template>
@@ -68,6 +67,7 @@
   p {
     font-size: 1.8rem;
     line-height: 1.5;
+    margin-bottom: 2rem;
     max-width: 50rem;
   }
 }

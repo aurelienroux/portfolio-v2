@@ -2,79 +2,70 @@
   "projects": [
     {
       "title": "Personal portfolio v2",
-      "description": "Second iteration of my personal website.",
-      "techs": ["Nuxt", "Nuxt $content API", "Netlify", "node", "vue"],
+      "description": "Second iteration of my personal website. Generated server-side as a static site and deployed on Netlify.",
+      "techs": ["Nuxt", "Nuxt Content API", "Sass", "Netlify"],
       "github": "https://github.com/aurelienroux/portfolio-v2"
     },
     {
       "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["Vue", "Vuex", "Netlify"],
+      "description": "Inspired by the website Coloors.co, the web app generates a random color palette, by fetching data from TheColorApi.",
+      "techs": ["Vue", "Vuex", "Sass", "Netlify"],
       "github": "https://github.com/aurelienroux/color-palette",
       "liveDemo": "https://aroux-colors-palette.netlify.app/"
     },
     {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
-      "github": "",
-      "liveDemo": ""
+      "title": "Black Jack",
+      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from Deckofcardsapi. Built as a PWA, the app can be installed on iOS & Android phones.",
+      "techs": ["Vue", "Vue Test Utils", "Netlify"],
+      "github": "https://github.com/aurelienroux/blackjack-vue",
+      "liveDemo": "https://aroux-blackjack.netlify.app/"
     },
     {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
-      "github": "",
-      "liveDemo": ""
+      "title": "Express weather app",
+      "description": "Web app built with Node & Express to start learning back-end. A local API enables data fetching from Mapbox and WeatherStack APIs",
+      "techs": ["Node", "Express", "Handlebars", "Heroku"],
+      "github": "https://github.com/aurelienroux/node-express-weather-app",
+      "liveDemo": "https://aroux-express-weather.herokuapp.com/"
     },
     {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
+      "title": "Locnest",
+      "description": "Made in agency, this website is based on WordPress, Javascript and Advanced Custom Fields.",
+      "techs": ["Wordpress", "Javascript", "Sass", "WP Advanced Custom Fields"],
       "github": "",
-      "liveDemo": ""
+      "liveDemo": "https://locnest.com/ca-en/?region=on"
     },
     {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
-      "github": "",
-      "liveDemo": ""
+      "title": "Hangman",
+      "description": "Hangman game made in Object oriented Javascript, fetching random words from an API.",
+      "techs": ["Javascript", "Object Oriented Programing"],
+      "github": "https://github.com/aurelienroux/js-bootcamp/tree/master/hangman",
+      "liveDemo": "https://aroux-hangman.netlify.app/"
     },
     {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
+      "title": "Actu-Juridique",
+      "description": "Made in agency, this website is based on WordPress. Search functionality is based on Algolia.",
+      "techs": [
+        "WordPress",
+        "Javascript",
+        "Algolia",
+        "WP Advanced Custom Fields"
+      ],
       "github": "",
-      "liveDemo": ""
+      "liveDemo": "https://www.actu-juridique.fr/"
     },
     {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
+      "title": "Rinox",
+      "description": "Made in agency, e-commerce site based on a WooCommerce custom theme",
+      "techs": ["WordPress", "WooCommerce", "WP Advanced Custom Fields"],
       "github": "",
-      "liveDemo": ""
+      "liveDemo": "https://www.rinox.ca/"
     },
     {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
+      "title": "ETS Substance",
+      "description": "Made in agency, this website is based on WordPress, Javascript and Advanced Custom Fields.",
+      "techs": ["WordPress", "Sass", "WP Advanced Custom Fields"],
       "github": "",
-      "liveDemo": ""
-    },
-    {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
-      "github": "",
-      "liveDemo": ""
-    },
-    {
-      "title": "Color Palette",
-      "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
-      "github": "",
-      "liveDemo": ""
+      "liveDemo": "https://substance.etsmtl.ca/"
     }
   ]
 }
