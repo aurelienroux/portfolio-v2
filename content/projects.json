@@ -15,14 +15,14 @@
     },
     {
       "title": "Black Jack",
-      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from Deckofcardsapi. Built as a PWA, the app can be installed on iOS & Android phones.",
+      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from DeckofCardsApi. Built as a PWA, the app can be installed on iOS & Android phones.",
       "techs": ["Vue", "Vue Test Utils", "Netlify"],
       "github": "https://github.com/aurelienroux/blackjack-vue",
       "liveDemo": "https://aroux-blackjack.netlify.app/"
     },
     {
       "title": "Express weather app",
-      "description": "Web app built with Node & Express to start learning back-end. A local API enables data fetching from Mapbox and WeatherStack APIs",
+      "description": "Web app built with Node & Express to start learning back-end. A local API enables data fetching from Mapbox and WeatherStack APIs.",
       "techs": ["Node", "Express", "Handlebars", "Heroku"],
       "github": "https://github.com/aurelienroux/node-express-weather-app",
       "liveDemo": "https://aroux-express-weather.herokuapp.com/"
@@ -30,7 +30,7 @@
     {
       "title": "Locnest",
       "description": "Made in agency, this website is based on WordPress, Javascript and Advanced Custom Fields.",
-      "techs": ["Wordpress", "Javascript", "Sass", "WP Advanced Custom Fields"],
+      "techs": ["Wordpress", "Javascript", "Sass", "Advanced Custom Fields"],
       "github": "",
       "liveDemo": "https://locnest.com/ca-en/?region=on"
     },
@@ -44,26 +44,21 @@
     {
       "title": "Actu-Juridique",
       "description": "Made in agency, this website is based on WordPress. Search functionality is based on Algolia.",
-      "techs": [
-        "WordPress",
-        "Javascript",
-        "Algolia",
-        "WP Advanced Custom Fields"
-      ],
+      "techs": ["WordPress", "Javascript", "Algolia", "Advanced Custom Fields"],
       "github": "",
       "liveDemo": "https://www.actu-juridique.fr/"
     },
     {
       "title": "Rinox",
-      "description": "Made in agency, e-commerce site based on a WooCommerce custom theme",
-      "techs": ["WordPress", "WooCommerce", "WP Advanced Custom Fields"],
+      "description": "Made in agency, e-commerce site based on a WooCommerce custom theme.",
+      "techs": ["WordPress", "WooCommerce", "Advanced Custom Fields"],
       "github": "",
       "liveDemo": "https://www.rinox.ca/"
     },
     {
       "title": "ETS Substance",
       "description": "Made in agency, this website is based on WordPress, Javascript and Advanced Custom Fields.",
-      "techs": ["WordPress", "Sass", "WP Advanced Custom Fields"],
+      "techs": ["WordPress", "Sass", "Advanced Custom Fields"],
       "github": "",
       "liveDemo": "https://substance.etsmtl.ca/"
     }
