@@ -42,26 +42,26 @@
     text-align: center;
 
     @include for-tablet-portrait-up {
-      margin: 0 0 14rem 0;
       font-size: 4rem;
+      margin: 0 0 14rem 0;
     }
   }
 
   &__links {
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    justify-content: space-around;
 
     @include for-tablet-portrait-up {
-      font-size: 4rem;
+      flex-direction: row;
     }
   }
 
   &__link {
+    color: $color-text;
     margin: 2rem;
     padding: 2rem;
-    color: $color-text;
     transition: 0.3s;
 
     &:hover {

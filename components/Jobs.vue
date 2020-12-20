@@ -26,7 +26,7 @@ export default {
 
 <style lang="scss" scoped>
 .jobs {
-  border: 1px solid;
+  border: 0.1rem solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
