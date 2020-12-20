@@ -1,17 +1,38 @@
 <template>
   <div class="projects">
-    <h2>What I have built</h2>
+    <h2 class="projects__title">What I have built</h2>
 
     <div class="display">
       <div v-for="(project, index) in projects" :key="index" class="project">
         <h3 class="project__title">
           {{ project.title }}
         </h3>
+
+        <div v-if="project.github || project.liveDemo" class="project__links">
+          <a
+            v-if="project.github"
+            class="project__link"
+            :href="project.github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <font-awesome-icon icon="code" fixed-width />
+          </a>
+          <a
+            v-if="project.liveDemo"
+            class="project__link"
+            :href="project.liveDemo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <font-awesome-icon icon="link" fixed-width />
+          </a>
+        </div>
+
         <p class="project__desc">
           {{ project.description }}
         </p>
-        {{ project.github }}
-        {{ project.liveDemo }}
+
         <div class="project__techs">
           <div
             v-for="(tech, techIndex) in project.techs"
@@ -39,10 +60,9 @@ export default {
 
 <style lang="scss" scoped>
 .projects {
-  border: 1px solid;
   min-height: 100vh;
 
-  h2 {
+  &__title {
     font-family: $font-montserrat;
     font-size: 4rem;
     margin: 0 0 4rem 0;
@@ -68,9 +88,28 @@ export default {
       margin-bottom: 2rem;
     }
 
+    &__links {
+      display: flex;
+      margin-bottom: 1rem;
+    }
+
+    &__link {
+      border-radius: 100%;
+      border: 0.1rem solid;
+      color: $color-text;
+      margin-right: 2rem;
+      padding: 1rem;
+      transition: 0.3s;
+
+      &:hover {
+        color: $color-orange;
+        transition: 0.3s;
+      }
+    }
+
     &__desc {
       flex: 1;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
 
     &__techs {

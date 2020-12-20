@@ -4,15 +4,14 @@
       "title": "Personal portfolio v2",
       "description": "Second iteration of my personal website.",
       "techs": ["Nuxt", "Nuxt $content API", "Netlify", "node", "vue"],
-      "github": "gh",
-      "liveDemo": "ld"
+      "github": "https://github.com/aurelienroux/portfolio-v2"
     },
     {
       "title": "Color Palette",
       "description": "Inspirée du site Coloors.co, la web app permet de générer automatiquement une palette de couleurs, en récupérant les informations de l’API TheColorApi.com. Déployée sur Netlify.",
-      "techs": ["node", "vue"],
-      "github": "",
-      "liveDemo": ""
+      "techs": ["Vue", "Vuex", "Netlify"],
+      "github": "https://github.com/aurelienroux/color-palette",
+      "liveDemo": "https://aroux-colors-palette.netlify.app/"
     },
     {
       "title": "Color Palette",

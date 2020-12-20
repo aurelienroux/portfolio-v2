@@ -25,7 +25,6 @@ html {
 }
 
 .container {
-  border: 1px solid;
   margin: 0 auto;
   max-width: 110rem;
   padding: 0 5rem;
