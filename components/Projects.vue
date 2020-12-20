@@ -61,6 +61,7 @@ export default {
 <style lang="scss" scoped>
 .projects {
   min-height: 100vh;
+  padding-bottom: 2rem;
 
   &__title {
     color: $color-orange;

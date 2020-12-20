@@ -21,6 +21,14 @@
       >
         <font-awesome-icon :icon="['fab', 'github-alt']" size="6x" />
       </a>
+      <a
+        href="/resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="contact__link"
+      >
+        <font-awesome-icon :icon="['fas', 'file-pdf']" size="6x" />
+      </a>
     </div>
   </div>
 </template>
@@ -38,7 +46,7 @@
     color: $color-orange;
     font-family: $font-montserrat;
     font-size: 3rem;
-    margin: 0 0 6rem 0;
+    margin: 4rem 0;
     text-align: center;
 
     @include for-tablet-portrait-up {
