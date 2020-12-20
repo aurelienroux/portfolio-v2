@@ -93,6 +93,7 @@ export default {
     padding: 2.5rem;
 
     &__title {
+      color: $color-orange;
       font-family: $font-montserrat;
       font-size: 2rem;
       margin-bottom: 1rem;

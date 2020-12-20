@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact renders correctly 1`] = `
+"<div class=\\"contact\\">
+  <h2 class=\\"contact__title\\">Say hi!</h2>
+  <div class=\\"contact__links\\"><a href=\\"mailto:aureroux13@gmail.com\\" class=\\"contact__link\\">
+      <font-awesome-icon-stub icon=\\"envelope\\" size=\\"6x\\"></font-awesome-icon-stub>
+    </a> <a href=\\"https://www.linkedin.com/in/rouxaurelien/\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" class=\\"contact__link\\">
+      <font-awesome-icon-stub icon=\\"fab,linkedin\\" size=\\"6x\\"></font-awesome-icon-stub>
+    </a> <a href=\\"https://github.com/aurelienroux\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" class=\\"contact__link\\">
+      <font-awesome-icon-stub icon=\\"fab,github-alt\\" size=\\"6x\\"></font-awesome-icon-stub>
+    </a> <a href=\\"/resume.pdf\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\" class=\\"contact__link\\">
+      <font-awesome-icon-stub icon=\\"fas,file-pdf\\" size=\\"6x\\"></font-awesome-icon-stub>
+    </a></div>
+</div>"
+`;
