@@ -1,4 +1,3 @@
-// import { shallowMount } from '@vue/test-utils'
 import { shallowMount } from '@vue/test-utils'
 import Contact from '@/components/Contact.vue'
 
