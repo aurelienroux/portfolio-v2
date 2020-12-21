@@ -30,6 +30,11 @@ export default {
         content:
           'Aurelien Roux is a front-end developer specializing in building exceptional websites and applications with Vue and Nuxt',
       },
+      {
+        hid: 'theme_color',
+        name: 'theme_color',
+        content: '#353738',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
