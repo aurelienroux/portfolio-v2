@@ -22,7 +22,7 @@
         <font-awesome-icon :icon="['fab', 'github-alt']" size="6x" />
       </a>
       <a
-        href="/resume.pdf"
+        href="/resumeAR.pdf"
         target="_blank"
         rel="noopener noreferrer"
         class="contact__link"
