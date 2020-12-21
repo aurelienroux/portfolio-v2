@@ -14,6 +14,22 @@ export default {
         content:
           'Aurelien Roux is a front-end developer specializing in building exceptional websites and applications with Vue and Nuxt',
       },
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Aurelien Roux portfolio',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Aurelien Roux',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'Aurelien Roux is a front-end developer specializing in building exceptional websites and applications with Vue and Nuxt',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
