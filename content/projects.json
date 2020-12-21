@@ -15,7 +15,7 @@
     },
     {
       "title": "Black Jack",
-      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from DeckofCardsApi. Built as a PWA, the app can be installed on iOS & Android phones.",
+      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from DeckofCardsApi.com. Built as a PWA, the app can be installed on iOS & Android phones.",
       "techs": ["Vue", "Unit testing", "Netlify"],
       "github": "https://github.com/aurelienroux/blackjack-vue",
       "liveDemo": "https://aroux-blackjack.netlify.app/"
