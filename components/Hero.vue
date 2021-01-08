@@ -4,27 +4,28 @@
     <h1 class="hero__title">Aurelien Roux</h1>
     <h2 class="hero__subtitle">Front-end & aspiring fullstack developer</h2>
     <p>
-      I specialize in Vue, Nuxt and am currently learning Node & Express. I
-      believe in clean code,
+      I specialize in Vue & Nuxt websites and dashboards and am currently
+      learning Node & Express. I believe in clean code,
       <a
         href="https://en.wikipedia.org/wiki/KISS_principle"
         target="_blank"
         rel="noopener noreferrer"
         >KISS</a
-      >,
+      >
+      &
       <a
         href="https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it"
         target="_blank"
         rel="noopener noreferrer"
         >YAGNI</a
       >
-      and
+      principles and
       <a
         href="https://en.wikipedia.org/wiki/Convention_over_configuration"
         target="_blank"
         rel="noopener noreferrer"
       >
-        convention over configuration
+        convention over configuration.
       </a>
     </p>
   </div>

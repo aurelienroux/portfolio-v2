@@ -16,7 +16,7 @@
     {
       "title": "Express weather app",
       "description": "Web app built with Node & Express to start learning back-end. A local API enables data fetching from Mapbox and WeatherStack APIs.",
-      "techs": ["Node", "Express", "Handlebars", "Heroku"],
+      "techs": ["Node", "Express", "custom API", "Handlebars", "Heroku"],
       "github": "https://github.com/aurelienroux/node-express-weather-app",
       "liveDemo": "https://aroux-express-weather.herokuapp.com/"
     },
