@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Personal portfolio v2",
-      "description": "Second iteration of my personal website. Generated server-side as a static site and deployed on Netlify.",
+      "description": "Second iteration of my personal website. Generated server-side as a static site and deployed on Netlify. Projects data is served through the Nuxt Content API",
       "techs": ["Nuxt", "Nuxt Content API", "Sass", "Unit testing", "Netlify"],
       "github": "https://github.com/aurelienroux/portfolio-v2"
     },
@@ -14,13 +14,6 @@
       "liveDemo": "https://aroux-colors-palette.netlify.app/"
     },
     {
-      "title": "Black Jack",
-      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from DeckofCardsApi. Built as a PWA, the app can be installed on iOS & Android phones.",
-      "techs": ["Vue", "Unit testing", "Netlify"],
-      "github": "https://github.com/aurelienroux/blackjack-vue",
-      "liveDemo": "https://aroux-blackjack.netlify.app/"
-    },
-    {
       "title": "Express weather app",
       "description": "Web app built with Node & Express to start learning back-end. A local API enables data fetching from Mapbox and WeatherStack APIs.",
       "techs": ["Node", "Express", "Handlebars", "Heroku"],
@@ -28,18 +21,18 @@
       "liveDemo": "https://aroux-express-weather.herokuapp.com/"
     },
     {
-      "title": "Locnest",
-      "description": "Made in agency, this website is based on WordPress, Javascript and Advanced Custom Fields.",
-      "techs": ["Wordpress", "Javascript", "Sass", "Advanced Custom Fields"],
-      "github": "",
-      "liveDemo": "https://locnest.com/ca-en/?region=on"
+      "title": "Fikas Festival v2",
+      "description": "Second iteration of the Fikas festival website. This is a bilingual static site, generated server-side by Nuxt, with content coming from Storyblok headless CMS.",
+      "techs": ["Nuxt", "Storyblok headless CMS", "i18n", "Netlify"],
+      "github": "https://github.com/aurelienroux/fikas",
+      "liveDemo": ""
     },
     {
-      "title": "Hangman",
-      "description": "Hangman game made in Object oriented Javascript, fetching random words from an API.",
-      "techs": ["Javascript", "Object Oriented Programing"],
-      "github": "https://github.com/aurelienroux/js-bootcamp/tree/master/hangman",
-      "liveDemo": "https://aroux-hangman.netlify.app/"
+      "title": "Black Jack",
+      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from DeckofCardsApi. Built as a PWA, the app can be installed on iOS & Android phones.",
+      "techs": ["Vue", "Unit testing", "Netlify"],
+      "github": "https://github.com/aurelienroux/blackjack-vue",
+      "liveDemo": "https://aroux-blackjack.netlify.app/"
     },
     {
       "title": "Actu-Juridique",
@@ -47,6 +40,13 @@
       "techs": ["WordPress", "Javascript", "Algolia", "Advanced Custom Fields"],
       "github": "",
       "liveDemo": "https://www.actu-juridique.fr/"
+    },
+    {
+      "title": "Hangman",
+      "description": "Hangman game made in Object oriented Javascript, fetching random words from an API.",
+      "techs": ["Javascript", "Object Oriented Programing"],
+      "github": "https://github.com/aurelienroux/js-bootcamp/tree/master/hangman",
+      "liveDemo": "https://aroux-hangman.netlify.app/"
     },
     {
       "title": "Rinox",
