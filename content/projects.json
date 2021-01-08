@@ -14,6 +14,13 @@
       "liveDemo": "https://aroux-colors-palette.netlify.app/"
     },
     {
+      "title": "Black Jack",
+      "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from DeckofCardsApi.com. Built as a PWA, the app can be installed on iOS & Android phones.",
+      "techs": ["Vue", "Unit testing", "Netlify"],
+      "github": "https://github.com/aurelienroux/blackjack-vue",
+      "liveDemo": "https://aroux-blackjack.netlify.app/"
+    },
+    {
       "title": "Express weather app",
       "description": "Web app built with Node & Express to start learning back-end. A local API enables data fetching from Mapbox and WeatherStack APIs.",
       "techs": ["Node", "Express", "Handlebars", "Heroku"],
