@@ -4,8 +4,8 @@
     <h1 class="hero__title">Aurelien Roux</h1>
     <h2 class="hero__subtitle">Front-end & aspiring fullstack developer</h2>
     <p>
-      I specialize in Vue & Nuxt websites and dashboards and am currently
-      learning Node & Express. I believe in clean code,
+      I specialize in Vue & Nuxt websites and am currently learning Node &
+      Express. I believe in clean code,
       <a
         href="https://en.wikipedia.org/wiki/KISS_principle"
         target="_blank"
