@@ -25,7 +25,7 @@
       "description": "Second iteration of the Fikas festival website. This is a bilingual static site, generated server-side by Nuxt, with content coming from Storyblok headless CMS.",
       "techs": ["Nuxt", "Storyblok headless CMS", "i18n", "Netlify"],
       "github": "https://github.com/aurelienroux/fikas",
-      "liveDemo": ""
+      "liveDemo": "https://www.fikasfest.com/"
     },
     {
       "title": "Black Jack",
