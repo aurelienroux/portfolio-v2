@@ -1,8 +1,15 @@
 {
   "projects": [
     {
+      "title": "Lomelet Recipes",
+      "description": "This app is a personal recipes aggregator. Installed as a PWA on my phone and Ipad, I use it to easily find the recipes I like. All data is incorporated from a JSON template and loaded by the Content API.",
+      "techs": ["Nuxt", "Nuxt Content API", "Sass", "Server Side rendering", "PWA", "Netlify"],
+      "github": "https://github.com/aurelienroux/lomelet",
+      "liveDemo": "https://aroux-lomelet.netlify.app/"
+    },
+    {
       "title": "Personal portfolio v2",
-      "description": "Second iteration of my personal website. Generated server-side as a static site and deployed on Netlify. Projects data is served through the Nuxt Content API",
+      "description": "Second iteration of my personal website. Generated server-side as a static site and deployed on Netlify. Projects data is served through the Nuxt Content API.",
       "techs": ["Nuxt", "Nuxt Content API", "Sass", "Unit testing", "Netlify"],
       "github": "https://github.com/aurelienroux/portfolio-v2"
     },
@@ -23,14 +30,14 @@
     {
       "title": "Fikas Festival v2",
       "description": "Second iteration of the Fikas festival website. This is a bilingual static site, generated server-side by Nuxt, with content coming from Storyblok headless CMS.",
-      "techs": ["Nuxt", "Storyblok headless CMS", "i18n", "Netlify"],
+      "techs": ["Nuxt", "Storyblok headless CMS", "Server Side rendering", "i18n", "Netlify"],
       "github": "https://github.com/aurelienroux/fikas",
       "liveDemo": "https://www.fikasfest.com/"
     },
     {
       "title": "Black Jack",
       "description": "Mini web app to play BlackJack. Made with Vue and fetching cards data from DeckofCardsApi. Built as a PWA, the app can be installed on iOS & Android phones.",
-      "techs": ["Vue", "Unit testing", "Netlify"],
+      "techs": ["Vue", "Unit testing", "PWA", "Netlify"],
       "github": "https://github.com/aurelienroux/blackjack-vue",
       "liveDemo": "https://aroux-blackjack.netlify.app/"
     },
