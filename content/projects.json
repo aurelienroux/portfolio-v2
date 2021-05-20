@@ -3,7 +3,7 @@
     {
       "title": "Lomelet Recipes",
       "description": "This app is a personal recipes aggregator. Installed as a PWA on my phone and Ipad, I use it to easily find the recipes I like. All data is incorporated from a JSON template and loaded by the Content API.",
-      "techs": ["Nuxt", "Nuxt Content API", "Sass", "Server Side rendering", "PWA", "Netlify"],
+      "techs": ["Nuxt", "Nuxt Content API", "Cypress e2e testing", "Server Side rendering", "PWA"],
       "github": "https://github.com/aurelienroux/lomelet",
       "liveDemo": "https://aroux-lomelet.netlify.app/"
     },
