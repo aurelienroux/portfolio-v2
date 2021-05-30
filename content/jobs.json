@@ -1,9 +1,15 @@
 {
   "jobs": [
     {
+      "companyName": "Tracktik",
+      "dateBegin": "march 2021",
+      "dateEnd": "now",
+      "location": "Montreal, QC"
+    },
+    {
       "companyName": "Aerial Technologies",
       "dateBegin": "november 2019",
-      "dateEnd": "now",
+      "dateEnd": "february 2021",
       "location": "Montreal, QC"
     },
     {

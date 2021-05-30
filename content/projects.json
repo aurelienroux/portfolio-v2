@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "E-commerce Checkout",
+      "description": "An e-commerce checkout with multiple products where each has different variants (size, fabric) and prices, updating the cart with the correct informations.",
+      "techs": ["Vue", "Typescript", "Sass", "Unit testing", "Cypress e2e testing"],
+      "github": "https://github.com/aurelienroux/checkout",
+      "liveDemo": "https://aroux-checkout.netlify.app/"
+    },
+    {
       "title": "Lomelet Recipes",
       "description": "This app is a personal recipes aggregator. Installed as a PWA on my phone and Ipad, I use it to easily find the recipes I like. All data is incorporated from a JSON template and loaded by the Content API.",
       "techs": ["Nuxt", "Nuxt Content API", "Cypress e2e testing", "Server Side rendering", "PWA"],
@@ -30,7 +37,7 @@
     {
       "title": "Fikas Festival v2",
       "description": "Second iteration of the Fikas festival website. This is a bilingual static site, generated server-side by Nuxt, with content coming from Storyblok headless CMS.",
-      "techs": ["Nuxt", "Storyblok headless CMS", "Server Side rendering", "i18n", "Netlify"],
+      "techs": ["Nuxt", "Storyblok headless CMS", "Server Side rendering", "i18n"],
       "github": "https://github.com/aurelienroux/fikas",
       "liveDemo": "https://www.fikasfest.com/"
     },
