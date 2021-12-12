@@ -13,6 +13,7 @@
       >
         <font-awesome-icon :icon="['fab', 'linkedin']" size="6x" />
       </a>
+
       <a
         href="https://github.com/aurelienroux"
         target="_blank"
@@ -21,6 +22,7 @@
       >
         <font-awesome-icon :icon="['fab', 'github-alt']" size="6x" />
       </a>
+
       <a
         href="/resumeAR.pdf"
         target="_blank"

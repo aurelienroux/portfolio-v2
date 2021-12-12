@@ -4,7 +4,9 @@
       <h1 v-if="error.statusCode === 404" class="lost__title">
         You got lost...
       </h1>
+
       <h1 v-else class="lost__title">An error occurred...</h1>
+
       <font-awesome-icon :icon="['fas', 'ghost']" class="lost__icon" />
 
       <NuxtLink class="lost__link" to="/">Take me home</NuxtLink>

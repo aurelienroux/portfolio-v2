@@ -1,6 +1,7 @@
 <template>
   <div class="jobs">
     <h2>jobs</h2>
+
     <ul>
       <div v-for="(job, index) in jobs" :key="index">
         {{ job.companyName }}

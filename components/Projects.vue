@@ -18,6 +18,7 @@
           >
             <font-awesome-icon :icon="['fab', 'github']" />
           </a>
+
           <a
             v-if="project.liveDemo"
             class="project__link"
