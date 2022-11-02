@@ -28,13 +28,6 @@
       "liveDemo": "https://aroux-colors-palette.netlify.app/"
     },
     {
-      "title": "Express weather app",
-      "description": "Web app built with Node & Express to start learning back-end. A local API enables data fetching from Mapbox and WeatherStack APIs.",
-      "techs": ["Node", "Express", "custom API", "Handlebars", "Heroku"],
-      "github": "https://github.com/aurelienroux/node-express-weather-app",
-      "liveDemo": "https://aroux-express-weather.herokuapp.com/"
-    },
-    {
       "title": "Fikas Festival v2",
       "description": "Second iteration of the Fikas festival website. This is a bilingual static site, generated server-side by Nuxt, with content coming from Storyblok headless CMS.",
       "techs": ["Nuxt", "Storyblok headless CMS", "Server Side rendering", "i18n"],
